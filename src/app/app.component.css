@@ -15,6 +15,9 @@
 .font-four {
   font-family: 'Poppins', sans-serif;
 }
+.cursor-pointer {
+  cursor: pointer;
+}
 
 .container {
   max-width:1200px;
