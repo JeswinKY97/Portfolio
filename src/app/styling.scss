@@ -1,0 +1,19 @@
+// .full-pic {
+//     height: 588px; 
+//     filter: grayscale(100%);
+//     margin-bottom: -5px;
+//     transition: 1s ease-in-out;
+//     &:hover {
+//         filter: none !important;
+//     }
+//   }
+
+
+.header {
+    width: 100%;
+    height: 99.9vh;
+    background-image: url('../../src/assets/header_bg.png');
+    background-size: cover;
+    background-position: center;
+    padding: 10px 0 0 0;
+}
