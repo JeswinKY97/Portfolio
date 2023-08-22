@@ -53,6 +53,22 @@ a {
     }
 }
 
+.move-up {
+    background: #ffbb5a;
+    padding: 17px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 27px;
+    right: 26px;
+    mat-icon {
+        color: white;
+        font-size: 27px;
+        font-weight: 900;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+    }
+}
+
 
 
 
@@ -80,10 +96,28 @@ a {
         
             .font-four {
                 color: #959595;
-                font-family: Poppins;
                 font-size: 27px;
                 font-style: normal;
                 font-weight: 300;
                 line-height: normal;
             }
+}
+
+#career {
+    background: black;
+    padding: 81px 0;
+    .font-one {
+        color: white;
+        font-size: 105px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .font-four {
+        color: #959595;
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
 }
