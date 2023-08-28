@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
+// @ts-ignore
 import AOS from 'aos';
+
 
 @Component({
   selector: 'app-root',
@@ -10,10 +12,7 @@ export class AppComponent {
   title = 'Mine';
 
   ngOnInit(): void {
-    //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
-    //Add 'implements OnInit' to the class.
-    AOS.init({ disable: 'mobile' });//AOS - 2
-    AOS.refresh();
+    AOS.init();
   }
 
 }
