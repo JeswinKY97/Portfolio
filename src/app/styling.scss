@@ -136,9 +136,19 @@ a {
 
     .font-four {
         color: #959595;
-        font-size: 27px;
+        font-size: 22px;
         font-style: normal;
         font-weight: 300;
         line-height: normal;
+        text-align: center;
+    }
+    img {
+        width: 65px;
+        filter: grayscale(1);
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
+        &:hover {
+            filter: none;
+        }
     }
 }
