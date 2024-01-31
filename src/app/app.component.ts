@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 // @ts-ignore
 import AOS from 'aos';
-import { ClipboardService } from 'ngx-clipboard';
 
 
 @Component({
@@ -13,14 +12,10 @@ export class AppComponent {
   title = 'Jeswin';
   email = 'jeswinky18@gmail.com';
 
-  constructor(private clipboardService: ClipboardService) {}
+  constructor() {}
 
   ngOnInit(): void {
     AOS.init();
-  }
-
-  copyToClipboard() {
-    this.clipboardService.copyFromContent(this.email);
   }
 
 }

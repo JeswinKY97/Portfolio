@@ -8,7 +8,6 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatToolbarModule} from "@angular/material/toolbar";
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatIconModule } from '@angular/material/icon';
-import { ClipboardModule } from 'ngx-clipboard';
 
 
 @NgModule({
@@ -22,8 +21,7 @@ import { ClipboardModule } from 'ngx-clipboard';
     MatIconModule,
     FlexLayoutModule,
     MatExpansionModule,
-    MatToolbarModule,
-    ClipboardModule
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
