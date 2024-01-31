@@ -40,9 +40,9 @@
     <!-- header body -->
     <div fxLayout="column" class="header-body h-100" fxLayoutAlign="center start">
       <div class="font-two">Jeswin Yesudas</div>
-      <div class="font-three">Website and User Interface Designer</div>
-      <div class="font-four">Over the past 1 year I have worked in Workspacein.com as a UI Designer/Developer where I had successfully helped my
-      company with my skills to reach our clients to start their superb journey</div>
+      <div class="font-three">Website and User Interface Designer/Developer</div>
+      <div class="font-four">Over the past 3 years I have worked in companies as a UI Designer/Developer where I had successfully helped my
+      organisation with my skills to reach our clients to start their superb journey</div>
     </div>
   </div>
 </div>
@@ -74,11 +74,11 @@
     craft visually appealing and intuitive designs that merge aesthetics with functionality.</div>
     <mat-accordion displayMode="default" class="w-100">
       <!-- flexm -->
-    <mat-expansion-panel>
+    <mat-expansion-panel class="career-panel">
       <mat-expansion-panel-header>
         <mat-panel-title fxLayout="row" fxLayoutAlign="space-between center">
-          <div>UI Designer/Developer @ Flexm Pvt Ltd </div>
-          <div>April 2023 - Present</div>
+          <div class="color-white panel-head">UI Developer @ Flexm Pvt Ltd </div>
+          <div  class="color-white panel-head">April 2023 - January 2024</div>
         </mat-panel-title>
       </mat-expansion-panel-header>
       <div fxLayout="row" fxLayoutAlign="space-between center">
@@ -86,26 +86,26 @@
           <div fxLayout="row" fxLayoutGap="50px">
             <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="10px">
               <mat-icon class="mat-18">location_on</mat-icon>
-              <div>Singapore</div>
+              <div class="panel-sub">Singapore</div>
             </div>
             <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="10px">
               <mat-icon class="mat-18">location_on</mat-icon>
-              <div>www.flexm.com/</div>
+              <div class="panel-sub">www.flexm.com/</div>
             </div>
           </div>
-          <div>Financial Services (Fintech Company)</div>
-          <div>Worked as Angular Developer</div>
+          <div class="panel-desc">Financial Services (Fintech Company)</div>
+          <div class="panel-desc">Worked as Angular Developer</div>
         </div>
-        <img src="assets/flexm-logo.jpg" alt="">
+        <img src="assets/flexm-logo.jpg" alt="flexm" style="border-radius: 50%;">
       </div>
     </mat-expansion-panel>
 
     <!-- workspacein -->
-    <mat-expansion-panel>
+    <mat-expansion-panel  class="career-panel">
       <mat-expansion-panel-header>
         <mat-panel-title fxLayout="row" fxLayoutAlign="space-between center">
-          <div>UI Designer/Developer @ workspacein.com </div>
-          <div>January 2021 - March 2023</div>
+          <div class="color-white panel-head">UI Designer/Developer @ workspacein.com </div>
+          <div  class="color-white panel-head">January 2021 - March 2023</div>
         </mat-panel-title>
       </mat-expansion-panel-header>
       <div fxLayout="row" fxLayoutAlign="space-between center">
@@ -113,15 +113,15 @@
           <div fxLayout="row" fxLayoutGap="50px">
             <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="10px">
               <mat-icon class="mat-18">location_on</mat-icon>
-              <div>Melbourne, Australia</div>
+              <div class="panel-sub">Melbourne, Australia</div>
             </div>
             <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="10px">
               <mat-icon class="mat-18">location_on</mat-icon>
-              <div>www.workspacein.com</div>
+              <div class="panel-sub">www.workspacein.com</div>
             </div>
           </div>
-          <div>Free Project & Task Management Platform</div>
-          <div>Worked as UI Designer/Developer in addition to create Web Assets</div>
+          <div class="panel-desc">Free Project & Task Management Platform</div>
+          <div class="panel-desc">Worked as UI Designer/Developer in addition to create Web Assets</div>
         </div>
         <img src="assets/workspacein.png" alt="">
       </div>
@@ -140,10 +140,12 @@
       media.
       Let's create exceptional user experiences that bring digital visions to life.</div>
     <div fxLayout="row" fxLayoutGap="20px" fxLayoutAlign="center center">
-      <img src="assets/instagram.png" alt="instagram">
-      <img src="assets/linkedin.png" alt="linkedin">
-      <a href="https://www.facebook.com/jerin.james.35912/about" target="_blank"><img src="assets/facebook.png" alt="facebook"></a>
-      <img src="assets/gmail.png" alt="gmail">
+      <a href="https://www.instagram.com/jes_k_y?igsh=cTVpZnA0b2NhZ2s3" target="_blank"><img src="assets/instagram.png" alt="instagram"></a>
+      <a href="https://www.linkedin.com/in/jeswin-yesudas-968a3719b/" target="_blank"><img src="assets/linkedin.png" alt="linkedin"></a>
+      <a href="https://www.facebook.com/jeswin.yesudas" target="_blank"><img src="assets/facebook.png" alt="facebook"></a>
+      <div (click)="copyToClipboard()" ngxClipboard [cbContent]="email">
+        <a href="https://www.facebook.com/jeswin.yesudas" target="_blank"><img src="assets/gmail.png" alt="gmail"></a>
+      </div>
     </div>
    
   </div>

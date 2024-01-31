@@ -1,16 +1,12 @@
-// .full-pic {
-//     height: 588px; 
-//     filter: grayscale(100%);
-//     margin-bottom: -5px;
-//     transition: 1s ease-in-out;
-//     &:hover {
-//         filter: none !important;
-//     }
-//   }
+@import './app.component.css';
 
 a {
     text-decoration: none;
     color: white;
+}
+
+.color-white {
+    color: white !important;
 }
 
 
@@ -118,6 +114,35 @@ a {
         font-size: 27px;
         font-style: normal;
         font-weight: 300;
+        line-height: normal;
+    }
+
+    .career-panel {
+        background: black;
+        color: white;
+        border: 1px solid #f8b464;
+        border-radius: 10px;
+    }
+
+    .panel-head {
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        font-weight: 200;
+        letter-spacing: 0.3pt;
+        line-height: normal;
+    }
+    .panel-sub {
+        font-family: 'Poppins';
+        font-size: 16px;
+        font-weight: 300;
+        letter-spacing: 0.5pt;
+        line-height: normal;
+    }
+    .panel-desc {
+        font-family: 'Poppins';
+        font-size: 16px;
+        font-weight: 300;
+        letter-spacing: 0.5pt;
         line-height: normal;
     }
 }
