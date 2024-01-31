@@ -11,6 +11,8 @@
   --Poppins: 'Poppins', sans-serif;
 }
 
+
+
 .font-one {
   font-family: 'Berkshire Swash', cursive;
 }
@@ -30,6 +32,9 @@
   color: white !important;
 }
 
+.w-80 {
+  width: 80%;
+}
 .container {
   max-width:1463px;
   margin:auto;
