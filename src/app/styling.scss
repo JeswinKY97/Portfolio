@@ -19,6 +19,12 @@ a {
     background-position: center;
     background-attachment: fixed;
     padding: 10px 0 0 0;
+
+    img {
+        @media only screen and (max-width: 600px) {
+            
+          }
+    }
 }
 
 .header-body {
