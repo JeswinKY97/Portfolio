@@ -6,7 +6,7 @@ import AOS from 'aos';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css', './styling.scss']
+  styleUrls: ['./app.component.css', './styling.scss', './stylescopy.scss']
 })
 export class AppComponent {
   title = 'Jeswin';
