@@ -30,31 +30,37 @@
   <div class="container h-100" fxLayout="column">
     <!-- nav -->
     <div fxLayout="row" fxLayoutAlign="space-between center">
-      <div><img src="assets/Logo.png" alt="Logo" ></div>
-      <div fxLayout="row" fxLayoutGap="40px" class="color-white">
+      <div><img src="assets/Logo.png" alt="Logo" fxHide.lt-md>
+        <img src="assets/jes.svg" alt="Logo" fxHide fxHide.lt-md="false" class="jes-logo">
+      </div>
+      <div fxHide.lt-md fxLayout="row" fxLayoutGap="40px" class="color-white">
         <a href="#career"><div class="toolbar-font font-one cursor-pointer">Career</div></a>
         <a href="#about"><div class="toolbar-font font-one cursor-pointer">About</div></a>
         <a href="#contact"><div class="toolbar-font font-one cursor-pointer">Contact</div></a>
       </div>
+      <!-- <div fxHide fxHide.lt-md="false" class="menu-icon">
+        <mat-icon>menu</mat-icon>
+      </div> -->
+
     </div>
     <!-- header body -->
-    <div fxLayout="column" class="header-body h-100" fxLayoutAlign="center start">
+    <div fxLayout="column" class="header-body h-100" fxLayoutAlign="center start" fxLayoutAlign.lt-md="center center">
       <div class="font-two">Jeswin Karimpil Yesudas</div>
       <div class="font-three">Website and User Interface Designer/Developer</div>
-      <div class="font-four w-80">Over the past 3 years I have worked in companies as a UI Designer/Developer where I had successfully helped my
+      <div class="font-four w-80" ngClass.lt-md="w-100">Over the past 3 years I have worked in companies as a UI Designer/Developer where I had successfully helped my
       organisation with my skills to reach our clients to start their superb journey</div>
     </div>
   </div>
 </div>
 
-<div class="move-up" fxLayoutAlign="center center">
+<div fxHide.lt-md class="move-up" fxLayoutAlign="center center">
   <a href="#header"><mat-icon>arrow_upward</mat-icon></a>
 </div>
 
 
 <!-- about -->
 <div id="about">
-  <div class="container" fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="70px">
+  <div class="container" fxLayout="row" fxLayout.lt-md="column" fxLayoutAlign="start center" fxLayoutGap="70px" fxLayoutGap.lt-md="10px">
     <img src="assets/head_pic.png" alt="head"  data-aos="zoom-in-up">
     <div fxLayout="column" fxLayoutAlign="start stretch">
       <div class="font-one" data-aos="fade-up">About</div>
@@ -68,52 +74,54 @@
 
 <!-- career -->
 <div id="career">
-  <div class="container" fxLayout="column" fxLayoutGap="50px" fxLayoutAlign="start start">
+  <div class="container" fxLayout="column" fxLayoutGap="50px" fxLayoutAlign="start start" fxLayoutAlign.lt-md="start stretch" fxLayoutGap.lt-md="25px">
     <div class="font-one">Career</div>
     <div class="font-four">As a UI developer, I excel in transforming design concepts into user-friendly interfaces. With a keen eye for detail, I
     craft visually appealing and intuitive designs that merge aesthetics with functionality.</div>
-    <mat-accordion displayMode="default" class="w-100">
-      <!-- flexm -->
+    <mat-accordion displayMode="default">
+     
     <mat-expansion-panel class="career-panel" data-aos="zoom-out">
       <mat-expansion-panel-header>
         <mat-panel-title fxLayout="row" fxLayoutAlign="space-between center">
           <div class="color-white panel-head">UI Developer @ Flexm Pvt Ltd </div>
-          <div  class="color-white panel-head">April 2023 - January 2024</div>
+          <div fxHide.lt-md class="color-white panel-head">April 2023 - January 2024</div>
         </mat-panel-title>
       </mat-expansion-panel-header>
-      <div fxLayout="row" fxLayoutAlign="space-between center">
+      <div fxLayout="row" fxLayoutAlign="space-between center" fxLayout.lt-md="column-reverse" fxLayoutAlign.lt-md="start start">
         <div fxLayout="column" fxLayoutGap="30px">
-          <div fxLayout="row" fxLayoutGap="50px">
+          <div fxHide fxHide.lt-md="false" class="panel-desc">April 2023 - January 2024</div>
+          <div fxLayout="row" fxLayoutGap="50px" fxLayoutGap.lt-md="20px">
             <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="10px">
               <mat-icon class="mat-18">location_on</mat-icon>
               <div class="panel-sub">Singapore</div>
             </div>
             <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="10px">
               <mat-icon class="mat-18">location_on</mat-icon>
-              <div class="panel-sub">www.flexm.com/</div>
+              <div class="panel-sub">www.flexm.com</div>
             </div>
           </div>
           <div class="panel-desc">Financial Services (Fintech Company)</div>
-          <div class="panel-desc">Worked as Angular Developer</div>
+          <div class="panel-desc">Worked as UI Developer</div>
         </div>
-        <img src="assets/flexm-logo.jpg" alt="flexm" style="border-radius: 50%;">
+        <img src="assets/flexm-logo.jpg" alt="flexm" class="company-logo">
       </div>
     </mat-expansion-panel>
 
-    <!-- workspacein -->
+   
     <mat-expansion-panel  class="career-panel"  data-aos="zoom-out">
       <mat-expansion-panel-header>
         <mat-panel-title fxLayout="row" fxLayoutAlign="space-between center">
           <div class="color-white panel-head">UI Designer/Developer @ workspacein.com </div>
-          <div  class="color-white panel-head">January 2021 - March 2023</div>
+          <div fxHide.lt-md class="color-white panel-head">January 2021 - March 2023</div>
         </mat-panel-title>
       </mat-expansion-panel-header>
-      <div fxLayout="row" fxLayoutAlign="space-between center">
+      <div fxLayout="row" fxLayoutAlign="space-between center" fxLayout.lt-md="column-reverse" fxLayoutAlign.lt-md="start start">
         <div fxLayout="column" fxLayoutGap="30px">
-          <div fxLayout="row" fxLayoutGap="50px">
+          <div fxHide fxHide.lt-md="false" class="panel-desc">January 2021 - March 2023</div>
+          <div fxLayout="row" fxLayoutGap="50px" fxLayoutGap.lt-md="20px">
             <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="10px">
               <mat-icon class="mat-18">location_on</mat-icon>
-              <div class="panel-sub">Melbourne, Australia</div>
+              <div class="panel-sub">Australia</div>
             </div>
             <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="10px">
               <mat-icon class="mat-18">location_on</mat-icon>
@@ -123,7 +131,7 @@
           <div class="panel-desc">Free Project & Task Management Platform</div>
           <div class="panel-desc">Worked as UI Designer/Developer in addition to creating Web Assets</div>
         </div>
-        <img src="assets/workspacein.png" alt="">
+        <img src="assets/workspacein.png" alt="workspacein-logo" class="company-logo">
       </div>
     </mat-expansion-panel>
     </mat-accordion>
@@ -143,9 +151,6 @@
       <a href="https://www.instagram.com/jes_k_y?igsh=cTVpZnA0b2NhZ2s3" target="_blank"><img src="assets/instagram.png" alt="instagram"></a>
       <a href="https://www.linkedin.com/in/jeswin-yesudas-968a3719b/" target="_blank"><img src="assets/linkedin.png" alt="linkedin"></a>
       <a href="https://www.facebook.com/jeswin.yesudas" target="_blank"><img src="assets/facebook.png" alt="facebook"></a>
-      <!-- <div >
-        <a href="https://www.facebook.com/jeswin.yesudas" target="_blank"><img src="assets/gmail.png" alt="gmail"></a>
-      </div> -->
     </div>
     <div class="mail-id color-white"><span>Mail : </span>jeswinky18@gmail.com</div>
    

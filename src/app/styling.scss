@@ -19,11 +19,25 @@ a {
     background-position: center;
     background-attachment: fixed;
     padding: 10px 0 0 0;
+    @media only screen and (max-width: 1023px) {
+        padding: 0;
+        height: fit-content;
+        background: black;
+    }
 
-    img {
-        @media only screen and (max-width: 600px) {
-            
-          }
+
+    .jes-logo {
+        height: 55px;
+    }
+    .menu-icon {
+        mat-icon {
+            color: #ffffff;
+            font-size: 37px;
+            margin: 0;
+            height: auto;
+            width: auto;
+        }
+        
     }
 }
 
@@ -36,6 +50,11 @@ a {
         font-weight: 400;
         line-height: normal;
         text-transform: uppercase;
+        @media only screen and (max-width: 1023px) {
+            text-align: center;
+            font-size: 17px;
+            margin-bottom: 13px;
+        }
     }
     .font-three {
         color: white;
@@ -43,6 +62,10 @@ a {
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        @media only screen and (max-width: 1023px) {
+            text-align: center;
+            font-size: 41px;
+        }
     }
     .font-four {
         color: #959595;
@@ -52,6 +75,15 @@ a {
         font-weight: 400;
         line-height: 40px;
         margin-top: 55px;
+        @media only screen and (max-width: 1023px) {
+            text-align: center;
+            margin-top: 33px;
+        }
+    }
+    @media only screen and (max-width: 1023px) {
+        width: 100%;
+        padding-top: 69px;
+        padding-bottom: 69px;
     }
 }
 
@@ -85,6 +117,11 @@ a {
                 font-weight: 400;
                 line-height: normal;
                 margin-bottom: 37px;
+                @media only screen and (max-width: 1023px) {
+                    text-align: center;
+                    font-size: 70px;
+                    margin-bottom:10px;
+                }
             }
         
             .font-two {
@@ -94,6 +131,10 @@ a {
                 font-weight: 300;
                 line-height: 49px;
                 margin-bottom: 24px;
+                @media only screen and (max-width: 1023px) {
+                    text-align: center;
+                    font-size: 25px;
+                }
             }
         
             .font-four {
@@ -102,6 +143,20 @@ a {
                 font-style: normal;
                 font-weight: 300;
                 line-height: normal;
+                @media only screen and (max-width: 1023px) {
+                    text-align: center;
+                    font-size: 23px;
+                    line-height: 40px;
+                }
+            }
+            @media only screen and (max-width: 1023px) {
+                img {
+                    width:100%;
+                }
+            }
+            @media only screen and (max-width: 1023px) {
+                margin-top: -1px;
+                padding-top: 12px;
             }
 }
 
@@ -114,6 +169,12 @@ a {
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        @media only screen and (max-width: 1023px) {
+            text-align: center;
+            font-size: 70px;
+            margin-bottom:10px;
+            margin-right: 0;
+        }
     }
     .font-four {
         color: #959595;
@@ -121,6 +182,11 @@ a {
         font-style: normal;
         font-weight: 300;
         line-height: normal;
+        @media only screen and (max-width: 1023px) {
+            text-align: center;
+            font-size: 23px;
+            line-height: 40px;
+        }
     }
 
     .career-panel {
@@ -136,6 +202,9 @@ a {
         font-weight: 200;
         letter-spacing: 0.3pt;
         line-height: normal;
+        @media only screen and (max-width: 1023px) {
+            font-size: 15px;
+        }
     }
     .panel-sub {
         font-family: 'Poppins';
@@ -151,6 +220,25 @@ a {
         letter-spacing: 0.5pt;
         line-height: normal;
     }
+    .company-logo {
+        border-radius: 50%;
+        @media only screen and (max-width: 1023px) {
+            width: 31%;
+            margin-bottom: 16px;
+        }
+    }
+
+    mat-accordion {
+        width: 100%;
+        @media only screen and (max-width: 1023px) {
+            width: 99%;
+            margin: auto;
+        }
+    }
+    @media only screen and (max-width: 1023px) {
+        margin-top: -1px;
+        padding-top: 12px;
+    }
 }
 
 #contact {
@@ -163,6 +251,11 @@ a {
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        @media only screen and (max-width: 1023px) {
+            text-align: center;
+            font-size: 70px;
+            margin-bottom:10px;
+        }
     }
 
     .font-four {
@@ -172,6 +265,11 @@ a {
         font-weight: 300;
         line-height: normal;
         text-align: center;
+        @media only screen and (max-width: 1023px) {
+            text-align: center;
+            font-size: 23px;
+            line-height: 40px;
+        }
     }
     img {
         width: 65px;
@@ -181,6 +279,10 @@ a {
         &:hover {
             filter: none;
         }
+    }
+    @media only screen and (max-width: 1023px) {
+        margin-top: -1px;
+        padding-top: 12px;
     }
 }
 
@@ -194,6 +296,7 @@ a {
         font-weight: 400;
         letter-spacing: 1.5pt;
     }
+    
 }
 
 
