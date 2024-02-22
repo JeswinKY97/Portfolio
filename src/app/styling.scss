@@ -19,6 +19,7 @@ a {
     background-position: center;
     background-attachment: fixed;
     padding: 10px 0 0 0;
+
     @media only screen and (max-width: 1023px) {
         padding: 0;
         height: fit-content;
@@ -29,6 +30,7 @@ a {
     .jes-logo {
         height: 55px;
     }
+
     .menu-icon {
         mat-icon {
             color: #ffffff;
@@ -37,12 +39,13 @@ a {
             height: auto;
             width: auto;
         }
-        
+
     }
 }
 
 .header-body {
     width: 69%;
+
     .font-two {
         color: #BABABA;
         font-size: 32px;
@@ -50,23 +53,27 @@ a {
         font-weight: 400;
         line-height: normal;
         text-transform: uppercase;
+
         @media only screen and (max-width: 1023px) {
             text-align: center;
             font-size: 17px;
             margin-bottom: 13px;
         }
     }
+
     .font-three {
         color: white;
         font-size: 91px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+
         @media only screen and (max-width: 1023px) {
             text-align: center;
             font-size: 41px;
         }
     }
+
     .font-four {
         color: #959595;
         font-family: Poppins;
@@ -75,11 +82,13 @@ a {
         font-weight: 400;
         line-height: 40px;
         margin-top: 55px;
+
         @media only screen and (max-width: 1023px) {
             text-align: center;
             margin-top: 33px;
         }
     }
+
     @media only screen and (max-width: 1023px) {
         width: 100%;
         padding-top: 69px;
@@ -94,6 +103,7 @@ a {
     position: fixed;
     bottom: 27px;
     right: 26px;
+
     mat-icon {
         color: white;
         font-size: 27px;
@@ -110,78 +120,88 @@ a {
 #about {
     background: black;
     padding: 81px 0;
-        .font-one {
-                color: white;
-                font-size: 105px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: normal;
-                margin-bottom: 37px;
-                @media only screen and (max-width: 1023px) {
-                    text-align: center;
-                    font-size: 70px;
-                    margin-bottom:10px;
-                }
-            }
-        
-            .font-two {
-                color: #ffbb5a;
-                font-size: 29px;
-                font-style: normal;
-                font-weight: 300;
-                line-height: 49px;
-                margin-bottom: 24px;
-                @media only screen and (max-width: 1023px) {
-                    text-align: center;
-                    font-size: 25px;
-                }
-            }
-        
-            .font-four {
-                color: #959595;
-                font-size: 27px;
-                font-style: normal;
-                font-weight: 300;
-                line-height: normal;
-                @media only screen and (max-width: 1023px) {
-                    text-align: center;
-                    font-size: 23px;
-                    line-height: 40px;
-                }
-            }
-            @media only screen and (max-width: 1023px) {
-                img {
-                    width:100%;
-                }
-            }
-            @media only screen and (max-width: 1023px) {
-                margin-top: -1px;
-                padding-top: 12px;
-            }
-}
 
-#career {
-    background: black;
-    padding: 81px 0;
     .font-one {
         color: white;
         font-size: 105px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        margin-bottom: 37px;
+
         @media only screen and (max-width: 1023px) {
             text-align: center;
             font-size: 70px;
-            margin-bottom:10px;
-            margin-right: 0;
+            margin-bottom: 10px;
         }
     }
+
+    .font-two {
+        color: #ffbb5a;
+        font-size: 29px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 49px;
+        margin-bottom: 24px;
+
+        @media only screen and (max-width: 1023px) {
+            text-align: center;
+            font-size: 25px;
+        }
+    }
+
     .font-four {
         color: #959595;
         font-size: 27px;
         font-style: normal;
         font-weight: 300;
         line-height: normal;
+
+        @media only screen and (max-width: 1023px) {
+            text-align: center;
+            font-size: 23px;
+            line-height: 40px;
+        }
+    }
+
+    @media only screen and (max-width: 1023px) {
+        img {
+            width: 100%;
+        }
+    }
+
+    @media only screen and (max-width: 1023px) {
+        margin-top: -1px;
+        padding-top: 12px;
+    }
+}
+
+#career {
+    background: black;
+    padding: 81px 0;
+
+    .font-one {
+        color: white;
+        font-size: 105px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        @media only screen and (max-width: 1023px) {
+            text-align: center;
+            font-size: 70px;
+            margin-bottom: 10px;
+            margin-right: 0;
+        }
+    }
+
+    .font-four {
+        color: #959595;
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+
         @media only screen and (max-width: 1023px) {
             text-align: center;
             font-size: 23px;
@@ -202,10 +222,12 @@ a {
         font-weight: 200;
         letter-spacing: 0.3pt;
         line-height: normal;
+
         @media only screen and (max-width: 1023px) {
             font-size: 15px;
         }
     }
+
     .panel-sub {
         font-family: 'Poppins';
         font-size: 16px;
@@ -213,6 +235,7 @@ a {
         letter-spacing: 0.5pt;
         line-height: normal;
     }
+
     .panel-desc {
         font-family: 'Poppins';
         font-size: 16px;
@@ -220,8 +243,10 @@ a {
         letter-spacing: 0.5pt;
         line-height: normal;
     }
+
     .company-logo {
         border-radius: 50%;
+
         @media only screen and (max-width: 1023px) {
             width: 31%;
             margin-bottom: 16px;
@@ -230,11 +255,13 @@ a {
 
     mat-accordion {
         width: 100%;
+
         @media only screen and (max-width: 1023px) {
             width: 99%;
             margin: auto;
         }
     }
+
     @media only screen and (max-width: 1023px) {
         margin-top: -1px;
         padding-top: 12px;
@@ -251,10 +278,11 @@ a {
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+
         @media only screen and (max-width: 1023px) {
             text-align: center;
             font-size: 70px;
-            margin-bottom:10px;
+            margin-bottom: 10px;
         }
     }
 
@@ -265,21 +293,25 @@ a {
         font-weight: 300;
         line-height: normal;
         text-align: center;
+
         @media only screen and (max-width: 1023px) {
             text-align: center;
             font-size: 23px;
             line-height: 40px;
         }
     }
+
     img {
         width: 65px;
         filter: grayscale(1);
         cursor: pointer;
         transition: 0.3s ease-in-out;
+
         &:hover {
             filter: none;
         }
     }
+
     @media only screen and (max-width: 1023px) {
         margin-top: -1px;
         padding-top: 12px;
@@ -292,12 +324,10 @@ a {
     font-weight: 200;
     letter-spacing: 3.3pt;
     line-height: normal;
+
     span {
         font-weight: 400;
         letter-spacing: 1.5pt;
     }
-    
+
 }
-
-
-
