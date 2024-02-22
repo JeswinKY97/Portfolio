@@ -1,15 +1,5 @@
 @import './app.component.css';
 
-a {
-    text-decoration: none;
-    color: white;
-}
-
-.color-white {
-    color: white !important;
-}
-
-
 #header {
     width: 100%;
     height: 99.9vh;
@@ -42,7 +32,6 @@ a {
 
     }
 }
-
 .header-body {
     width: 69%;
 
@@ -95,7 +84,6 @@ a {
         padding-bottom: 69px;
     }
 }
-
 .move-up {
     background: #ffbb5a;
     padding: 17px;
@@ -112,10 +100,6 @@ a {
         -webkit-text-stroke-color: black;
     }
 }
-
-
-
-
 // about
 #about {
     background: black;
@@ -175,7 +159,6 @@ a {
         padding-top: 12px;
     }
 }
-
 #career {
     background: black;
     padding: 81px 0;
@@ -267,7 +250,6 @@ a {
         padding-top: 12px;
     }
 }
-
 #contact {
     background: black;
     padding: 81px 0;
@@ -317,7 +299,6 @@ a {
         padding-top: 12px;
     }
 }
-
 .mail-id {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
